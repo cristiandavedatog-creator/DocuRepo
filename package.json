@@ -1,0 +1,37 @@
+{
+  "name": "docu-repository",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma": "prisma",
+    "migrate:deploy": "prisma migrate deploy",
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "5.13.0",
+    "autoprefixer": "10.4.14",
+    "bcryptjs": "2.4.3",
+    "clsx": "1.2.1",
+    "encoding": "0.1.13",
+    "googleapis": "121.0.0",
+    "next": "13.5.11",
+    "next-auth": "4.22.1",
+    "postcss": "8.4.24",
+    "prisma": "5.13.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "supports-color": "10.2.2",
+    "tailwindcss": "3.4.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "26.1.0",
+    "@types/react": "19.2.17",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.10",
+    "typescript": "5.6.2"
+  }
+}
